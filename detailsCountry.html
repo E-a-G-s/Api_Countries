@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <title>Mi Pagina Web</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div>
+      <!--FLEXBOX VA EN CONTENEDOR PADRE Y LOS HIJOS SE VEN AFECTADO(FLEXIBLE)-->
+      <nav class="navBar">
+        <div class="container navBar-content">
+          <h1>Paises del Mundo</h1>
+          <button class="btn-dark-mode">
+            <i class="fa-regular fa-moon"></i>
+            Modo Oscuro
+          </button>
+        </div>
+      </nav>
+    </div>
+    <header class="container filter-content my-2">
+      <a href="index.html"> <button>Volver...</button> </a>
+    </header>
+    <main class="container grid" id="banderas"></main>
+
+    <script src="./js/darkMode.js"></script>
+    <script src="./js/detailCountry.js"></script>
+  </body>
+</html>
